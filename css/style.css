@@ -1,0 +1,69 @@
+@font-face {
+    font-family: roboto;
+    src: url('../webfonts/Roboto-BlackItalic.ttf');
+}
+
+.container {
+    background-color: #231955;
+    background-image:
+        radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px),
+        radial-gradient(white, rgba(255, 255, 255, .15) 1px, transparent 30px),
+        radial-gradient(white, rgba(255, 255, 255, .1) 2px, transparent 40px),
+        radial-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+h1 {
+    font-family: roboto;
+    font-weight: bold;
+    color: #E8AA42;
+}
+
+#result,
+#area {
+    border: 4px inset #FFE5B4;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    height: 80px;
+    color: #FFE5B4;
+    font-size: 20px;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    margin-top: 50px;
+    border-bottom: 300px solid #1F4690;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+.circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #1F4690;
+    margin-top: 100px;
+}
+
+/* 
+.btn {
+    color: #E8AA42 !important;
+    font-size: 18px !important;
+    font-weight: bolder !important;
+} */
+
+#res,
+#reslt {
+    border: 4px inset #FFE5B4;
+    margin: 20px 0px;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    height: 80px;
+    color: #FFE5B4;
+    font-size: 18px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Shapes</title>
+
+    <!--CSS Styling -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+
+</head>
+
+<body>
+    <!-- finding diagonal of square -->
+    <div class="container">
+        <div class="row m-3">
+            <div class="col-lg-6 col-md-12 col-sm-12 p-5">
+                <h1>Finding Diagonal <br>Of Square</h1>
+                <br>
+                <input type="text" id="myInput" placeholder="Enter the No.">
+                <button onclick="CalD()" id="myBtn" class="btn btn-primary mx-2">Calculate</button>
+                <div id="result"></div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 my-5 px-5">
+                <canvas height="300" width="300" style="background-color:#1F4690;"></canvas>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Finding the area of triangle -->
+    <div class="container">
+        <div class="row m-5">
+            <div class="col-lg-6 col-md-12 col-sm-12 my-5">
+                <h1>Finding Area Of <br>Triangle</h1><br>
+                <!-- <input type="text" id="side1" placeholder="Enter value of 1st side">
+                <br>
+                <br>
+                <input type="text" id="side2" placeholder="Enter value of 2nd side">
+                <br>
+                <br>
+                <input type="text" id="side3" placeholder="Enter value of 3rd side"> -->
+                <br>
+                <br>
+                <button onclick="calArea()" id="calcArea" class="btn btn-primary">Show Results</button>
+                <br>
+                <div id="area"></div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 my-5 px-5">
+                <div id="triangle"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Finding the Cirumference and surface area of circle -->
+    <div class="container">
+        <div class="row m-5">
+            <div class="col-lg-6 col-md-12 col-sm-12 my-5">
+                <h1>Finding the Circumference <br>and Surface Area</h1><br>
+                <input type="text" id="radius" placeholder="Enter value of Radius">
+                <br><br>
+                <button id="circference" onclick="Circumference()" class="btn btn-primary">Calculate
+                    Circumference</button>
+                <div id="res"></div>
+                <br><br>
+                <button id="surfaceArea" onclick="SurfaceArea()" class="btn btn-primary">Calculate Surface Area</button>
+                <div id="reslt"></div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 my-5">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="./js/main.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
