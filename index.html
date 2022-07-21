@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condationals and Loops</title>
+
+    <!-- CSS Styling -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4 my-2">
+            <!-- two integers displaying the larger of them -->
+
+            <div class="col">
+                <div class="card shadow-lg rounded">
+                    <div class="card-body">
+                        <h1 class="card-title py-2">Check the Largest Integer.</h1>
+
+                        <label for="firstNo">Enter the 1ST Number:</label>
+                        <input type="text" id="firstNo">
+                        <br>
+                        <br>
+                        <label for="secondNo">Enter the 2ND Number:</label>
+                        <input type="text" id="secondNo">
+                        <br>
+                        <br>
+                        <button onclick="LargestInteger()" id="check">Check</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+            </div>
+            <div class="col">
+            </div>
+
+            <!-- checking an integer even or odd -->
+            <div class="col">
+                <div class="card shadow-lg rounded">
+                    <div class="card-body">
+                        <h1 class="card-title py-2">Checking Integer Even OR Odd.</h1>
+
+                        <label>Enter the Number:</label>
+                        <input type="number" id="enterNo">
+                        <br>
+                        <br>
+                        <button onclick="EvenOdd()" id="submit">Check</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="./js/main.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/all.min.js"></script>
+</body>
+
+</html>

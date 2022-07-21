@@ -1,0 +1,33 @@
+@font-face {
+    font-family: nunito;
+    src: url('../webfonts/Nunito-Bold.ttf');
+}
+
+body {
+    min-height: 100vh;
+    background: rgb(237, 23, 117);
+    background: linear-gradient(120deg, rgba(237, 23, 117, 1) 0%, rgba(18, 144, 179, 1) 100%);
+    overflow-y: hidden;
+
+}
+
+h1 {
+    color: #7b5695;
+    font-family: nunito;
+}
+
+#check {
+    background-color: #1290b3;
+    color: White;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 15px;
+}
+
+#submit {
+    background-color: #ed1775;
+    color: White;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 15px;
+}
